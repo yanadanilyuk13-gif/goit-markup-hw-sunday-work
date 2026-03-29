@@ -1,0 +1,71 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 65px;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #fbfbfb;
+    border: 1px solid #fbfbfb;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.logo {
+font-family: Gilroy, sans-serif;
+text-transform: uppercase;
+font-weight: 500;
+font-size: 20px;
+letter-spacing: -0.02em;
+color: #0c0c0c;
+
+display: flex;
+padding: 6px 0;
+margin: 26px 0;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+}
+.menu-items {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 26px 0;
+    margin-left: 203px;
+}
+.menu-list {
+font-family: Gilroy, sans-serif;
+font-size: 14px;
+
+/* line-height: 18px; */ 
+line-height: 129%;
+text-align: center;
+color: #0c0c0c;
+
+display: block;
+gap: 40px;
+max-width: 505px;
+flex: 1 1 calc((100% - 200px) / 6);
+
+}
+.section {
+    
+}
+.body {
+    font-family: "Gilroy", sans-serif;
+}
